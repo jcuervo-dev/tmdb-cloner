@@ -30,6 +30,7 @@ class UtilController:
             "title": movie['original_title'],
             "genre": [x for x in movie['genres']],
             "summary": movie['overview'],
-            "rating": movie['vote_count']
+            "total_votes": movie['vote_count'],
+            "rating": movie['vote_average']
             }
         return movie
