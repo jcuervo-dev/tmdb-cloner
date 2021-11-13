@@ -33,24 +33,17 @@ Step 2 - Add api key to local environment
     
 
 Step 2 - Environment setup
+
+    pipenv install -r requirements.txt
     pip install --user pipenv
     pipenv install -r requirements.txt
+    
  
 Step 3 - Run tmdb-cloner
+
     pipenv run main.py
 
-Step 4 - Wait for the cloner to finish doing its thing, if you encounter problems just restart the program
-
-## Deployment
-
-Add additional notes to deploy this on a live system
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+Step 4 - Wait for the cloner to finish doing its thing, if you encounter problems just restart the program and it should start where it left off.
 
 ## Contributing
 
@@ -66,7 +59,7 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 ## Authors
 
   - **Javier Beca** - *Main Developer* -
-    [PurpleBooth](https://github.com/jcuervo-dev)
+    [jcuervo-dev](https://github.com/jcuervo-dev)
 
 See also the list of
 [contributors](https://github.com/jcuervo-dev/tmdb-cloner/contributors)
